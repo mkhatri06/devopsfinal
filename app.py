@@ -22,3 +22,6 @@ def id(tid):
 if name == __main__:
     Flask(debug=True, host='0.0.0.0', PORT = 5000)
 
+curl http:localhost:5000/api/health
+curl http:localhost:5000/api/course
+curl http:localhost:5000/api/course/1
